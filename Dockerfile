@@ -1,3 +1,3 @@
-FROM lakhansamani/authorizer:1.1.29
+FROM lakhansamani/authorizer:1.1.28
 
 CMD ./build/server --database_type=postgres --log_level=debug
